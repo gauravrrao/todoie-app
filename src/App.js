@@ -1,21 +1,12 @@
+import React from 'react'
+import Main from './Main.jsx'
 
-import './App.css';
-import Header from './components/Header';
-import Product from './components/Product';
-import Button from './components/Button';
-
-function App() {
+const App = () => {
   return (
-    <div className='main'>
-     <Header />
-     <Product title="Eat"/>
-     <Product title="Sleep"/>
-     <Product title="Play"/>
-     <Product title="Watch"/>
-     <Product title="Buy"/>
-     <Button />
-    </div>
-  );
+    <>
+    <Main />
+    </>
+  )
 }
 
-export default App;
+export default App

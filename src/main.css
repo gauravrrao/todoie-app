@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:100%;
+    background-color: rgb(42, 8, 74);
+    box-sizing: border-box;
+}
+.container{
+    background-color:  steelblue;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.field{
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+}
+.newbtn{
+    background-color: black;
+    padding: 0.5rem;
+    background-color: white;
+    outline: none;
+    border: none;
+}
+.newbtn:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+h3{
+    color: white;
+    padding: 1rem;
+}
+.heading{
+    margin-bottom: 20px;
+}
+
+.main-container{
+    margin-top: 20px;
+    background-color: skyblue;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+.btn2{
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 0.5rem;
+    padding:0.7rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+.btn2:hover{
+    background-color: black;
+    color: wheat;
+}
